@@ -7,4 +7,4 @@ https://gatk.broadinstitute.org/hc/en-us/articles/360041696232-Detecting-sample-
 STEP 1: `ExtractFingerprint` (gatk) to extract fingerprint from a cellranger BAM.
 This makes the STEP 2 faster because the fingerprints are VCFs.
 
-STEP 2: `CrosscheckFingerprints` across multiome GEX (still need to add ATAC)
+STEP 2: `CrosscheckFingerprints` (picard) across multiome GEX (still need to add ATAC)
